@@ -6,7 +6,7 @@ About
 
 This made for the project where I'm working now.
 That module is use list of radiostations of Tyumen city but you may replace
-this list on own. Need observe format of JSON.
+this list on your own. Need observe format of JSON.
 
 Module is using HTML5 Javascript API but there is fallback to Flash
 if browser not support that API.
@@ -14,7 +14,7 @@ if browser not support that API.
 Example
 -------
 
-You may to see it in work at: ...
+You may to see it in work at: http://www.pixel-tyumen.ru/works/html5-radio/
 
 Use
 ---
