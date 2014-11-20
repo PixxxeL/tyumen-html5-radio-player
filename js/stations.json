@@ -1,0 +1,410 @@
+[
+    {
+        "id" : "good_songs",
+        "active" : true,
+        "title" : "Добрые песни",
+        "freq" : 90.4,
+        "website" : "http://90i4.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "ag",
+        "streams" : [
+            {
+                "id" : "ag",
+                "ogg" : "",
+                "mp3" : "http://92.255.169.178/dp",
+                "bitrate" : 0
+            },
+            {
+                "id" : "site",
+                "ogg" : "",
+                "mp3" : "http://s.djstation.ru/dp",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "radio_7",
+        "active" : true,
+        "title" : "Радио 7",
+        "freq" : 103.1,
+        "website" : "http://radio7fm.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "",
+                "ogg" : "",
+                "mp3" : "http://rain72.ru:8000/radio7",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "dipol_fm",
+        "active" : true,
+        "title" : "Диполь FM",
+        "freq" : 105.6,
+        "website" : "http://dipol-fm.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "hit",
+        "streams" : [
+            {
+                "id" : "rock",
+                "ogg" : "",
+                "mp3" : "http://rock.dipol-fm.ru:8000/radio_mount1",
+                "bitrate" : 0
+            },
+            {
+                "id" : "rap",
+                "ogg" : "",
+                "mp3" : "http://rockngenix.dipol-fm.ru:8000/radio_mount2",
+                "bitrate" : 0
+            },
+            {
+                "id" : "hit",
+                "ogg" : "",
+                "mp3" : "http://rockngenix.dipol-fm.ru:8000/radio_mount3",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "apriori",
+        "active" : true,
+        "title" : "Априори",
+        "freq" : 106.5,
+        "website" : "http://www.apriorifm.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "",
+                "ogg" : "",
+                "mp3" : "http://rain72.ru:8000/apriori",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "radio_city",
+        "active" : true,
+        "title" : "Радио Сити",
+        "freq" : 100.6,
+        "website" : "http://www.100i6fm.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "",
+                "ogg" : "",
+                "mp3" : "http://online.100i6fm.ru:8000/city",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "red_army",
+        "active" : true,
+        "title" : "Красная Армия",
+        "freq" : 104.6,
+        "website" : "http://redarmy.fm/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "128",
+        "streams" : [
+            {
+                "id" : "96",
+                "ogg" : "",
+                "mp3" : "http://live.rzs.ru:8000/ka.96.mp3",
+                "bitrate" : 96
+            },
+            {
+                "id" : "128",
+                "ogg" : "",
+                "mp3" : "http://live.rzs.ru:8000/ka.128.mp3",
+                "bitrate" : 128
+            },
+            {
+                "id" : "256",
+                "ogg" : "",
+                "mp3" : "http://live.rzs.ru:8000/ka.256.mp3",
+                "bitrate" : 256
+            }
+        ]
+    },
+    {
+        "id" : "win_radio",
+        "active" : true,
+        "title" : "Радио Победы",
+        "freq" : 88.8,
+        "website" : "http://radiopobeda.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "",
+                "ogg" : "",
+                "mp3" : "http://ip.radiopobeda.ru:8000/rp",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "silver_rain",
+        "active" : true,
+        "title" : "Серебрянный дождь",
+        "freq" : 91.2,
+        "website" : "http://region.silver.ru/tumen/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "",
+                "ogg" : "",
+                "mp3" : "http://rain72.ru:8000/rain",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "europa_plus",
+        "active" : true,
+        "title" : "Европа плюс",
+        "freq" : 101.8,
+        "website" : "http://tyumen.europaplus.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "128",
+                "ogg" : "",
+                "mp3" : "http://de02.streamr.ru:8030/ep128",
+                "bitrate" : 128
+            }
+        ]
+    },
+    {
+        "id" : "retro_fm",
+        "active" : true,
+        "title" : "Ретро FM",
+        "freq" : 105.1,
+        "website" : "http://tyumen.retrofm.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "128",
+        "streams" : [
+            {
+                "id" : "32",
+                "ogg" : "",
+                "mp3" : "http://retroserver.streamr.ru:8043/retro32",
+                "bitrate" : 32
+            },
+            {
+                "id" : "64",
+                "ogg" : "",
+                "mp3" : "http://retroserver.streamr.ru:8043/retro64",
+                "bitrate" : 64
+            },
+            {
+                "id" : "128",
+                "ogg" : "",
+                "mp3" : "http://retroserver.streamr.ru:8043/retro128",
+                "bitrate" : 128
+            },
+            {
+                "id" : "256",
+                "ogg" : "",
+                "mp3" : "http://retro256server.streamr.ru:8048/retro256",
+                "bitrate" : 256
+            }
+        ]
+    },
+    {
+        "id" : "road_radio",
+        "active" : true,
+        "title" : "Дорожное радио",
+        "freq" : 107.0,
+        "website" : "http://dorognoe.ru/?go=tumen",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "128",
+        "streams" : [
+            {
+                "id" : "64",
+                "ogg" : "",
+                "mp3" : "http://dor2server.streamr.ru:8000/dor_64_no",
+                "bitrate" : 64
+            },
+            {
+                "id" : "128",
+                "ogg" : "",
+                "mp3" : "http://dorognoe.hostingradio.ru:8000/dorognoe",
+                "bitrate" : 128
+            }
+        ]
+    },
+    {
+        "id" : "humor_fm",
+        "active" : true,
+        "title" : "Юмор FM",
+        "freq" : 88.3,
+        "website" : "http://www.veseloeradio.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "",
+                "ogg" : "",
+                "mp3" : "http://ru2.101.ru:8000/v5_1",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "dj_station",
+        "active" : true,
+        "title" : "DJСтанция",
+        "freq" : 98.8,
+        "website" : "http://www.djstation.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "128",
+        "streams" : [
+            {
+                "id" : "128",
+                "ogg" : "",
+                "mp3" : "http://s.djstation.ru/stream128",
+                "bitrate" : 128
+            },
+            {
+                "id" : "192",
+                "ogg" : "",
+                "mp3" : "http://s.djstation.ru/stream192",
+                "bitrate" : 192
+            }
+        ]
+    },
+    {
+        "id" : "rus_radio",
+        "active" : true,
+        "title" : "Русское радио",
+        "freq" : 102.5,
+        "website" : "http://www.rusradio.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "",
+                "ogg" : "",
+                "mp3" : "http://rr.fmtuner.ru/",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "radio_ugra",
+        "active" : true,
+        "title" : "Радио Югра",
+        "freq" : 107.4,
+        "website" : "http://www.radio-ugra.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "",
+                "ogg" : "",
+                "mp3" : "http://82.116.29.165:8000/;stream.nsv",
+                "bitrate" : 0
+            }
+        ]
+    },
+    {
+        "id" : "vesti_fm",
+        "active" : true,
+        "title" : "Вести FM",
+        "freq" : 103.6,
+        "website" : "http://radiovesti.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "192",
+                "ogg" : "",
+                "mp3" : "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
+                "bitrate" : 192
+            }
+        ]
+    },
+    {
+        "id" : "radio_beacon",
+        "active" : true,
+        "title" : "Радио Маяк",
+        "freq" : 100.0,
+        "website" : "http://www.radiomayak.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "192",
+                "ogg" : "",
+                "mp3" : "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps",
+                "bitrate" : 192
+            }
+        ]
+    },
+    {
+        "id" : "komsomolka",
+        "active" : true,
+        "title" : "Комсомольская правда",
+        "freq" : 99.6,
+        "website" : "http://tumen.kp.ru/radio/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "96",
+        "streams" : [
+            {
+                "id" : "64",
+                "ogg" : "",
+                "mp3" : "http://radio.kp.ru:8014/64",
+                "bitrate" : 64
+            },
+            {
+                "id" : "96",
+                "ogg" : "",
+                "mp3" : "http://radio.kp.ru:8012/96",
+                "bitrate" : 96
+            }
+        ]
+    },
+    {
+        "id" : "shanson",
+        "active" : false,
+        "title" : "Шансон",
+        "freq" : 101.0,
+        "website" : "http://101-fm.ru/",
+        "logo" : "",
+        "desc" : "",
+        "defaultStream" : "",
+        "streams" : [
+            {
+                "id" : "",
+                "ogg" : "",
+                "mp3" : "http://194.67.39.48:8000/1",
+                "bitrate" : 0
+            }
+        ]
+    }
+]

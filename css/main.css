@@ -1,0 +1,14 @@
+#current-radio-container {
+    width: 150px;
+}
+#radio-volume {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    width: 100px;
+}
+#radio-fallback-container {
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
