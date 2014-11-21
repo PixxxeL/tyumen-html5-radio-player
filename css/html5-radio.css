@@ -1,8 +1,10 @@
+#radio-ui-container > * {
+    display: inline-block;
+}
 #current-radio-container {
     width: 150px;
 }
 #radio-volume {
-    display: inline-block;
     vertical-align: middle;
     margin: 0;
     width: 100px;

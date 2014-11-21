@@ -51,10 +51,11 @@ RadioPlayer.Streams = Backbone.Collection.extend({
 RadioPlayer.FlashPlayer = function (options) {
 
     var _self = this,
+        _options = options || {},
         _swfId = 'radio-fallback',
-        _swfUrl = options.swf || './img/radio.swf',
+        _swfUrl = _options.swf || './img/radio.swf',
         //_swfUrl = './img/radio.swf?=' + +new Date(),
-        _expressInstallUrl = options.expressInstall || './img/expressInstall.swf',
+        _expressInstallUrl = _options.expressInstall || './img/expressInstall.swf',
         _swf;
 
     _self.volume = 0;
@@ -109,8 +110,9 @@ RadioPlayer.Application = function (options) {
             volume : _defaultVolume,
             radio  : null
         },
+        _options = options || {},
         _container = $('#radio-ui-container'),
-        _dataUrl = options.dataUrl || './js/stations.json',
+        _dataUrl = _options.dataUrl || './js/html5-radio-data.json',
         _tryies = 0,
         _audio, _data, _current;
 
@@ -141,7 +143,7 @@ RadioPlayer.Application = function (options) {
         if (!_audio.canPlayType || !_audio.canPlayType('audio/mpeg')) {
             _errorHandler('Application._plugIn', 'HTML5 audio/mpeg not supported');
             _isHtml5 = false;
-            _audio = new RadioPlayer.FlashPlayer(options);
+            _audio = new RadioPlayer.FlashPlayer(_options);
         }
     };
 
