@@ -25,7 +25,7 @@ You may place it on your own page just set in HTML-file:
     ...
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/html5-radio.css">
     ...
 </head>
 <body>
@@ -52,7 +52,7 @@ You may place it on your own page just set in HTML-file:
     <script src="js/vendor/underscore.min.js"></script>
     <script src="js/vendor/backbone.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/html5-radio.js"></script>
     <script>
         $( function () { new RadioPlayer.Application().run(); });
     </script>
